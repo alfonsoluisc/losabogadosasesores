@@ -688,7 +688,16 @@ a:focus {
     color: #0796fe;
     background: #092a49;
 }
+.about-text{
+    text-align: justify;
+}
+.mejores{
+    text-align: justify;
+}
 
+.p_blog{
+    text-align: justify;
+}
 @media (max-width: 767.98px) {
     .about .about-img {
         margin-bottom: 30px;
