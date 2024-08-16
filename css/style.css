@@ -101,8 +101,13 @@ a:focus {
     box-shadow: 2px 2px 3px #999;
     z-index: 100;
   }
+.fa-whatsapp {
+    font-family: "Font Awesome 6 Brands";
+    font-weight: 400;
+    margin-block: 15px;
+    color: #ffffff;
+}
   
-
 /**********************************/
 /********** Top Bar CSS ***********/
 /**********************************/
