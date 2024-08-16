@@ -793,6 +793,7 @@ a:focus {
     justify-content: flex-start;
 }
 
+
 .feature .feature-img::after {
     position: absolute;
     content: "";
