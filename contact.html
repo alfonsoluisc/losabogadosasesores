@@ -21,7 +21,17 @@
 
         <!-- Template Stylesheet -->
         <link href="css/style.css" rel="stylesheet">
-    </head>
+
+        <!--CCS DE CONCTAC ABOGADOS-->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/owl.carousel.css">
+        <link rel="stylesheet" href="css/owl.theme.default.min.css">
+        
+        <!--CCS INPUT PHONE CONTACT-->
+        <link rel="stylesheet" href="./css/demo.css">
+        <link rel="stylesheet" href="./css/intlTelInput.css">
+        <link rel="stylesheet" href="./css/intlTelInput.min.css">
+        </head>
 
     <body class="page">
         <!-- Top Bar Start -->
@@ -76,7 +86,7 @@
                                 <a href="transito.html" class="dropdown-item">Tránsito</a>
                             </div>
                         </div>
-                        
+                        <a href="#" class="nav-item nav-link">Finanzas Personales</a>
                         <a href="blog.html" class="nav-item nav-link active">Blog</a>
                         <a href="contact.html" class="nav-item nav-link active">Contacto</a>
                     </div>
@@ -123,7 +133,43 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-7">
+                    <section id="contact" data-stellar-background-ratio="0.5">
+                        <div class="container">
+                             <div class="row">
+              
+                                  <div class="col-md-offset-1 col-md-10 col-sm-12">
+                                       <form id="contact-form" role="form" action="https://formsubmit.co/gonzalezcruzedgar@hotmail.com" target="_blank" method="post">
+                                            <div class="section-title">
+                                                 <h1>Envíanos un mensaje</h1>
+                                            </div>
+              
+                                            <div class="col-md-4 col-sm-4">
+                                                 <input type="text" class="form-control" placeholder="Nombre completo" name="name" required>
+                                            </div>
+                                            <div class="col-md-4 col-sm-4">
+                                                 <input type="email" class="form-control" placeholder="Correo electrónico" name="email" required>
+                                            </div>
+                                            <div class="col-md-4 col-sm-4">
+                                                <input type="tel" id="phone" placeholder="Número de Teléfono">
+                                            </div>
+                                            <!--<div class="col-md-4 col-sm-4">
+                                                 <input type="number" class="form-control" placeholder="Número de teléfono" name="teléfono" required>
+                                            </div>-->
+                                            
+                                            <div class="col-md-12 col-sm-12">
+                                                 <textarea class="form-control" rows="8" placeholder="Tú mensaje" name="message" required></textarea>
+                                            </div>
+
+                                            <div class="col-md-4 col-sm-4">
+                                                <input type="submit" class="form-control" name="send message" value="Enviar mensaje">
+                                           </div>
+                                       </form>
+                                  </div>
+              
+                             </div>
+                        </div>
+                   </section>       
+                    <!--<div class="col-md-7">
                         <div class="contact-form">
                             <div id="success"></div>
                             <form name="sentMessage" id="contactForm" action="https://formsubmit.co/gonzalezcruzedgar@hotmail.com" target="_blank" novalidate="novalidate" role="form">
@@ -148,7 +194,7 @@
                                 </div>
                             </form>
                         </div>
-                    </div>
+                    </div>-->
                 </div>
             </div>
         </div>
@@ -192,10 +238,10 @@
                 <div class="footer-newsletter">
                     <h2>Últimas Noticias</h2>
                     <p>
-                        Consulta información de interés.
+                        Solicita información de interés.
                     </p>
                     <div class="form">
-                        <input class="form-control" placeholder="Email goes here">
+                        <input class="form-control" placeholder="Ingresa tu correo">
                         <button class="btn">Enviar</button>
                     </div>
                 </div>
@@ -232,5 +278,13 @@
 
         <!-- Template Javascript -->
         <script src="js/main.js"></script>
+
+        <!-- Template Javascript Phone Contact-->
+        <script src="./js/intlTelInput.js"></script>
+        <script>
+            var input = document.querySelector("#phone");
+            window.intlTelInput(input,{});
+        </script>
+        
     </body>
 </html>
