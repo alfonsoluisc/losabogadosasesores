@@ -294,7 +294,7 @@ a:focus {
         padding: 5px;
     }
     
-    .navbar .dropdown-menu {
+    .navbar .dropdown-menu {    
         box-shadow: none;
     }
 }
