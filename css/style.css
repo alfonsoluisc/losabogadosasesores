@@ -146,6 +146,9 @@ a:focus {
     border-left: 1px solid rgba(255, 255, 255, .15);
 }
 
+.subtitle_logo{
+    color: #fff;
+ }
 .top-bar .text:last-child {
     border-right: 1px solid rgba(255, 255, 255, .15);
 }
